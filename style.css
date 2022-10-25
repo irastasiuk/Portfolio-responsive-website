@@ -16,7 +16,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 72px;
 }
 
 h2 {
@@ -33,6 +33,10 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
+}
+
+a:hover {
+  color: #cfcdff;
 }
 
 .navigation-links {
@@ -97,7 +101,24 @@ p {
   color: white;
 }
 
-.about {
-  margin: 60px auto;
-  max-width: 800px;
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  img {
+    display: block;
+    margin: 10px 0;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+  }
 }
